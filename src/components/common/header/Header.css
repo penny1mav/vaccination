@@ -1,0 +1,30 @@
+.header {
+  font-weight: bold;
+  font-size: 68.5%;
+}
+
+.logoImage {
+  width: 5%;
+  padding-top: 1.5%;
+  padding-left: 1%;
+  display: grid;
+}
+.header-top {
+  width: 100%;
+  font-size: 115%;
+  margin-bottom: 2%;
+
+  color: #14eceb;
+  background-color: #097a7a;
+}
+
+.header-logo {
+  color: inherit;
+  text-decoration: inherit;
+  font-family: RobotoThin;
+}
+
+.header-top__navbar {
+  width: 95%;
+  text-indent: 0%;
+}

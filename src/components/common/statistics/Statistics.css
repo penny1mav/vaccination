@@ -1,0 +1,14 @@
+.date {
+  width: 30%;
+  margin-left: 35%;
+}
+.statistics {
+  padding-bottom: 17%;
+}
+@media (max-width: 700px) {
+  .statistics {
+    width: 100%;
+
+    padding-bottom: 60%;
+  }
+}

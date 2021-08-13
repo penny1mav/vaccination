@@ -1,0 +1,83 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  font-size: 135%;
+  color: #14eceb;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  background-color: #097a7a;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-info-left,
+.footer-info-center,
+.footer-info-right {
+  font-size: 70%;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.footer-info__name,
+.footer-info__email,
+.footer-info__number {
+  margin-bottom: 0px;
+}
+
+.footer-info__name,
+.footer-info__returns {
+  text-align: start;
+}
+
+.footer-info__email,
+.footer-info__terms {
+  text-align: center;
+}
+
+.footer-info__number,
+.footer-info__contact {
+  text-align: end;
+}
+
+.footer-date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-name {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bottom__name {
+  text-transform: uppercase;
+  font-family: RobotoBold;
+  font-size: large;
+}
+@media (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+    width: 100%;
+    font-size: 110%;
+    padding-right: 1%;
+    height: 10.5%;
+    padding-bottom: 33%;
+  }
+}
+@media (max-width: 1400px) {
+  .footer {
+    flex-direction: column;
+    width: 100%;
+    font-size: 110%;
+    padding-right: 1%;
+    height: 12%;
+  }
+}

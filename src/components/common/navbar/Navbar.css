@@ -1,0 +1,25 @@
+.navbar-item {
+  color: inherit;
+  text-decoration: inherit;
+  text-transform: uppercase;
+}
+.navbar-item:hover {
+  color: aqua;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center;
+  padding-left: 3%;
+}
+@media (max-width: 700px) {
+  .navbar {
+    flex-direction: row;
+    width: 100%;
+    font-size: 87%;
+    padding-right: 1%;
+    height: 11%;
+  }
+}

@@ -1,0 +1,25 @@
+/* μέσω του media φτιάχνουμε την εμφάνιση της ιστοσελίδας σε κινητές συσκευές η και tablet*/
+
+.date2 {
+  width: 50%;
+  padding-left: 0%;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px 160px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+@media (max-width: 700px) {
+  .date {
+    width: 100%;
+  }
+}

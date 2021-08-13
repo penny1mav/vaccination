@@ -1,0 +1,63 @@
+.card {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-bottom: 3%;
+  font-size: 17px;
+}
+.pics {
+  width: 40%;
+}
+.carousel {
+  background-color: #adcadb;
+  margin-bottom: 3%;
+  font-size: 5%;
+}
+.link {
+  color: #adcadb;
+}
+.link:hover {
+  color: aqua;
+}
+.info {
+  color: #097a7a;
+  margin-bottom: 3%;
+  font-family: roboto-regular;
+}
+.videos {
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 6%;
+}
+.video {
+  padding: 1%;
+}
+.news {
+  width: 20%;
+}
+.card {
+  width: 100%;
+}
+@media (max-width: 700px) {
+  .videos {
+    flex-direction: row;
+  }
+
+  .cards {
+    flex-direction: column;
+    padding-left: 19%;
+    width: 80%;
+  }
+
+  .video {
+    width: 10%;
+    padding: 1%;
+    padding-top: 25%;
+    padding-bottom: 39%;
+  }
+  .pics {
+    width: 60%;
+  }
+  .news {
+    width: 97%;
+  }
+}

@@ -1,0 +1,7 @@
+.title {
+  font-family: Roboto-Thin;
+  font-size: xx-large;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
